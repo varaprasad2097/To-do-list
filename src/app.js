@@ -8,7 +8,7 @@ const analyticsRoutes = require("./routers/analyticsRoutes");
 const {
   notFound,
   errorHandler,
-} = require("./middleware/errorMiddleware");
+} = require("./middleware/errormiddleware");
 
 const app = express();
 
