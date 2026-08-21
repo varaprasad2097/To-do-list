@@ -9,7 +9,7 @@ const {
   updateTaskStatus,
 } = require("../controller/taskController");
 
-const protect = require("../middleware/authMiddleware");
+const protect = require("../middleware/authmiddleware");
 
 const router = express.Router();
 
